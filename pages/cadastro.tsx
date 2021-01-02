@@ -8,7 +8,7 @@ import CardCadastro from '../components/CardCadastro'
 
 export default function Cadastro() {
   return (
-    <div className="bg-gradient-to-b from-roxo to-verde">
+    <div className="bg-gradient-to-b from-roxo to-verde min-h-screen">
       <Head>
         <title>LeveCriar.com.br</title>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -20,7 +20,7 @@ export default function Cadastro() {
 
         <div className="">
         </div>
-      <main className="container border-verde border-4 bg-bege flex-col md:flex-row flex md:justify-around items-center mx-auto lg:w-5/6 min-h-screen">
+        <main className="container h-full border-verde border-4 bg-bege flex-col md:flex-row flex  md:justify-around items-center mx-auto lg:w-5/6">
         <CardCadastro/>
       </main>
     <Footer/>

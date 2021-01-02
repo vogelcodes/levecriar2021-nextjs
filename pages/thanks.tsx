@@ -6,7 +6,7 @@ import React from 'react'
 import CardCadastro from '../components/CardCadastro'
 
 
-export default function Thanks() {
+export default function Home() {
   return (
     <div className="bg-gradient-to-b from-roxo to-verde min-h-screen">
       <Head>
@@ -19,8 +19,8 @@ export default function Thanks() {
       </Head>
       <Header />
 
-        <main className="container h-full border-verde border-4 bg-bege flex-col md:flex-row flex  md:justify-around items-center mx-auto lg:w-5/6">
-        <CardCadastro/>
+        <main className="container h-48 border-verde border-4 bg-bege flex-col md:flex-row flex  md:justify-around items-center mx-auto lg:w-5/6">
+        <h1>Obrigado por se cadastrar!</h1>    
     
 </main>
 <Footer/>

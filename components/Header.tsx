@@ -6,7 +6,7 @@ export default function Header() {
     return(
         <header className="m-auto z-0 lg:w-5/6 p-2 md:p-4 sm:flex items-center justify-between h-18 lg:h-24">
 <div className="pb-1 flex justify-around sm:justify-between sm:px-3 md:px-4 sm:flex-auto">
-      <Link href="/">
+      <a href="/">
     <div className="cursor-pointer flex items-center">
       <div className="h-10">
       <Image src="/logo.svg" height="48" width="48"/>
@@ -17,10 +17,13 @@ export default function Header() {
     
    </h1>
     </div>
-      </Link>
+      </a>
 
-   <ul className="text-bege items-center font-serif md:text-xl lg:text-2xl flex">
+   <ul className=" cursor-pointer text-bege items-center font-serif md:text-xl lg:text-2xl flex">
+     <a href="https://go.hotmart.com/J45224330U">
      <li className="px-2 ">E-Book</li>
+     </a>
+
      <li className="px-2">Enxoval</li>
      <li className="px-2">Loja</li>
      <li className="px-2 hidden sm:block">Blog</li>
