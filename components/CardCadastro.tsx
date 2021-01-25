@@ -32,7 +32,7 @@ export default function CardCadastro (){
 <h1 className="w-80 text-2xl pt-2 text-verde font-serif">Cadastre-se, é grátis!</h1>
 </div>
 <form onSubmit={handleSubmit} className="mt-6 h-36 flex flex-col justify-around md:flex-row">
-    <input type="email" className="pl-3 text-lg placeholder-verde h-8 rounded-lg" placeholder="E-mail" 
+    <input type="email" className="pl-3 text-base font-serif placeholder-verde h-8 rounded-lg" placeholder="E-mail" 
             onChange={e => setEmail(e.target.value)}
             id="email"/>
     <button type="submit" className="text-sm md:text-lg text-bege mx-1 font-serif button h-8 rounded-lg bg-verde px-2 ">Cadastre-se</button>
